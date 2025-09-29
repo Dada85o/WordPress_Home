@@ -10,6 +10,11 @@
                 wp_title( '|', true, 'right' ); // Standardní titulek pro ostatní stránky
             }
          ?></title>
+
+        <script src="<?php $theme_url ?>/script/script.js"></script>
+        <link rel="stylesheet" href="<?php $theme_url ?>/style.css">
+        <?php wp_head(); ?>
+
     </head>
     <body>
         <?php
