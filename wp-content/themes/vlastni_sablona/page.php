@@ -1,4 +1,6 @@
+
 <!DOCTYPE html>
+<?php $theme_url = get_template_directory_uri(); ?>
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -11,10 +13,9 @@
             }
          ?></title>
 
-        <script src="<?php $theme_url ?>/script/script.js"></script>
-        <link rel="stylesheet" href="<?php $theme_url ?>/style.css">
-        <?php wp_head(); ?>
-
+         <script src="<?php $theme_url ?>/script/script.js"></script>
+         <link rel="stylesheet" href="<?php $theme_url ?>/style.css">
+         <?php wp_head(); ?>
     </head>
     <body>
         <?php
