@@ -1,9 +1,12 @@
+<head>
+<script src="<?php echo get_template_directory_uri(); ?>/script/script.js" defer></script>
+</head>
 <header>
 
         <div class="wrapper">
 
             <div class="wrapper-logo">
-                <img src="/img/availability-svgrepo-com.svg" alt="">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/obr/Logo.png' ); ?>" alt="BAGRR">
             </div>
 
             <div class="wrapper-hamburger">
