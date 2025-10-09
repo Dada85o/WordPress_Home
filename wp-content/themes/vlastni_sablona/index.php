@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $theme_url = get_template_directory_uri(); ?>č
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">

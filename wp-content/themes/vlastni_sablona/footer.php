@@ -1,12 +1,12 @@
 <head>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/footer.css">
-
 </head>
+
 <footer>
     <div class="wrapper">
         <div class="wrapper-content">
             <h1>Zde se nachází footer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p>BAGR Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Asperiores, consequatur exercitationem blanditiis ducimus 
                 placeat ipsum inventore, officiis, hic eaque aliquid ullam 
                 mollitia iste sint accusamus tempora iure velit nisi quibusdam?</p>
@@ -34,5 +34,11 @@
             <a href="#">Contact Us</a>
         </div>
 
+        <div class="wave"></div>
+        <div class="wrapper">
+            <div class="wrapper-content">
+                <h2>Footer obsah</h2>
+            </div>
+        </div>
     </div>
 </footer>
